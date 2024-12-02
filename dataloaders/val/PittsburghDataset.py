@@ -9,7 +9,7 @@ from torch.utils.data import Dataset
 # I hardcoded the image names and ground truth for faster evaluation
 # performance is exactly the same as if you use VPR-Bench.
 
-DATASET_ROOT = 'C:\\Users\\victo\\OneDrive\\Desktop\\Victor\\OPA\\7O\\ptyixiaki\\gsv-cities\\dataloaders\\val\\NordlandDataset.py'
+DATASET_ROOT = '/content/mygsv/dataloaders/val/NordlandDataset.py'
 GT_ROOT = '/home/USER/work/gsv-cities/datasets/' # BECAREFUL, this is the ground truth that comes with GSV-Cities
 
 path_obj = Path(DATASET_ROOT)
