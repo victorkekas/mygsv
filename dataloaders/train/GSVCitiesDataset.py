@@ -13,7 +13,7 @@ default_transform = T.Compose([
 ])
 
 # NOTE: Hard coded path to dataset folder 
-BASE_PATH = 'C:\\Users\\victo\\OneDrive\\Desktop\\Victor\\OPA\\7O\\ptyixiaki\\gsv-cities\\datasets\\'
+BASE_PATH = 'BASE_PATH = /content/mygsv/gsv_cities'
 
 
 
