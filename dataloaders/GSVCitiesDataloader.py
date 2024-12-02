@@ -2,11 +2,11 @@ import pytorch_lightning as pl
 from torch.utils.data.dataloader import DataLoader
 from torchvision import transforms as T
 
-from dataloaders.train.GSVCitiesDataset import GSVCitiesDataset
-from dataloaders.val.PittsburghDataset import PittsburghDataset
-from dataloaders.val.MapillaryDataset import MSLS
-from dataloaders.val.NordlandDataset import NordlandDataset
-from dataloaders.val.SPEDDataset import SPEDDataset
+from train.GSVCitiesDataset import GSVCitiesDataset
+from val.PittsburghDataset import PittsburghDataset
+from val.MapillaryDataset import MSLS
+from val.NordlandDataset import NordlandDataset
+from val.SPEDDataset import SPEDDataset
 
 
 from prettytable import PrettyTable
