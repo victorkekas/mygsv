@@ -219,8 +219,7 @@ class VPRModel(pl.LightningModule):
             
 if __name__ == '__main__':
     
-    pl.utilities.seed.seed_everything(seed=1, workers=True)
-    
+    pl.seed_everything(1, workers=True)    
     # the datamodule contains train and validation dataloaders,
     # refer to ./dataloader/GSVCitiesDataloader.py for details
     # if you want to train on specific cities, you can comment/uncomment
